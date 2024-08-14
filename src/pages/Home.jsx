@@ -15,19 +15,19 @@ function Home() {
 
       <div className="min-h-screen">
         <MainCarousel />
-        <Category title={"Premieres Of Lionsgate Play"} query={"boys"} />
+        <Category title={"Premieres Of Lionsgate Play"} query={"premieres"} />
         <Category title={"Debutants Showcase"} query={"girls"} />
 
         <TopRank title={"Top 10 in India"} query={"top"} />
-        <Category title={"Watch Next"} query={"boys"} />
-        <Category title={"Creature Chronicles"} query={"boys"} />
+        <Category title={"Watch Next"} query={"next"} />
+        <Category title={"Creature Chronicles"} query={"Chronicles"} />
         <Category title={"Trending This Week"} query={"boy"} />
         <SpecialBanner
           title={"Coming Soon on Lionsgate Play"}
           query={"girls"}
         />
         <Category title={"Big Guns Of Hollywood"} query={"boy"} />
-        <Category title={"Sportsflix"} query={"boys"} />
+        <Category title={"Sportsflix"} query={"adventure"} />
         <Category title={"Women In Action"} query={"girls"} />
         <SpecialBanner title={"Dubbed For You"} query={"anime"} />
 

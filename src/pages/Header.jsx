@@ -54,7 +54,6 @@ const Header = () => {
             )}
           </div>
 
-          {/* Desktop Navigation */}
           <div className="flex items-center mt-2 md:mt-5">
             <div className="w-[7.913rem] flex">
               <img
@@ -65,9 +64,21 @@ const Header = () => {
             </div>
             <div className="hidden md:block">
               <ul className="flex gap-16 md:gap-4 lg:gap-12 md:mx-3 lg:mx-7 md:text-md font-bold">
-                <li>HOME</li>
-                <li>SHOWS</li>
-                <li>MOVIES</li>
+                <li className="">
+                  <a href="#" className="hover:text-[#B2B2B2] ">
+                    HOME
+                  </a>
+                </li>
+                <li className="">
+                  <a href="#" className="hover:text-[#B2B2B2]">
+                    SHOWS
+                  </a>
+                </li>
+                <li className="">
+                  <a href="#" className="hover:text-[#B2B2B2]">
+                    MOVIES
+                  </a>
+                </li>
               </ul>
             </div>
           </div>
@@ -78,8 +89,14 @@ const Header = () => {
                 <CiSearch className="h-5 w-5 md:mx-5 lg:-mx-9" />
                 <span className="md:hidden lg:text-md  lg:block">SEARCH</span>
               </li>
-              <li className="font-bold">LOG IN</li>
-              <li className="font-bold">SIGN UP</li>
+              <li className="font-bold ">
+                <a href="#" className="hover:text-[#B2B2B2] ">
+                  LOG IN
+                </a>
+              </li>
+              <a href="#" className="hover:text-[#B2B2B2]">
+                <li className="font-bold">SIGN UP</li>
+              </a>
             </ul>
           </div>
         </div>

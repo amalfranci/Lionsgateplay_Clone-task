@@ -9,7 +9,7 @@ function Category({ title, query }) {
   useEffect(() => {
     const interval = setInterval(() => {
       handleNextClick();
-    }, 5000);
+    }, 3000);
 
     return () => clearInterval(interval);
   }, []);
