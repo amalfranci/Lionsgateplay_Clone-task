@@ -25,27 +25,27 @@ const Header = () => {
 
             {isOpen && (
               <div className="absolute top-12 left-0 w-full shadow-lg z-50 bg-[#082125]">
-                <div className="bg-[#082125] h-24 flex items-center gap-4 mx-7">
-                  <button className="btn text-black bg-[#d1ff00]">
+                <div className="bg-[#082125] text-black font-bold h-24 flex items-center gap-4 mx-7">
+                  <button className="btn text-black p-1 bg-[#d1ff00]">
                     LOG IN
                   </button>
-                  <button className="btn text-black bg-[#d1ff00]">
+                  <button className="btn text-black p-1 bg-[#d1ff00]">
                     SIGN UP
                   </button>
                 </div>
-                <ul className="list-none p-4 m-0 bg-[#021114] text-white">
-                  <li className="py-2">
-                    <a href="#" className="hover:text-blue-600">
+                <ul className="list-none p-4 m-0 bg-[#021114]  text-white">
+                  <li className="p-2 hover:bg-[#061E22]">
+                    <a href="#" className="">
                       HOME
                     </a>
                   </li>
-                  <li className="py-2">
-                    <a href="#" className="hover:text-blue-600">
+                  <li className="p-2 hover:bg-[#061E22]">
+                    <a href="#" className="">
                       SHOWS
                     </a>
                   </li>
-                  <li className="py-2">
-                    <a href="#" className="hover:text-blue-600">
+                  <li className="p-2 hover:bg-[#061E22]">
+                    <a href="#" className="">
                       MOVIES
                     </a>
                   </li>
